@@ -1,0 +1,169 @@
+body, html {
+  height: 100%;
+  background-color: #A0102C;
+  
+  margin: 0;
+
+
+  /*
+  background-image: "assets/img/FIRENOODLESFRONT.png";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;*/
+
+
+}
+
+/*center title*/
+
+
+
+.navbar {
+  /*overflow: hidden;
+  background-color: #271C1E;
+  display:inline-block;
+  /*
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+  border: 0;
+  
+  width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+  
+  position: fixed;
+  */
+
+  width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #271C1E;
+    /* PROBLEM 1: Make the header stick to the top as you scroll */
+    position: fixed;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  margin-left: 80px;
+  line-height: 80px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Galada', cursive;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.buttons{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom:250px;
+  right:50px;
+}
+
+
+.text {
+  text-align: center;
+  font-family: 'Spicy Rice', cursive;
+  font-size: 60px;
+
+}
+
+/* Overall carousel dimensions */
+.carousel,
+.carousel-image {
+  width: 400px;
+  height: 400px;
+}
+
+/* Carousel frame setup */
+
+.carousel {
+  position: relative;
+  left: 250px;
+  top: 280px;
+  /*border: 3px solid blue;*/
+  /* Part 3.2: Hide stuff that overflows the box */
+  overflow: hidden;
+  flex-direction: row;
+
+}
+#carousel1, #carousel2 {
+  margin: 150px;
+}
+
+#title1 {
+  text-align: center;
+  font-family: 'Spicy Rice', cursive;
+}
+
+
+#title2 {
+  text-align: center;
+  font-family: 'Spicy Rice', cursive;
+}
+
+/* Images */
+
+#carousel-image-row {
+  /* Part 1.2: Make images appear in a row */
+  display: flex;
+  flex-direction: row;
+  /* Part 1.3: What kind of positioning? */
+  position: relative;
+  left: 0px;
+  /* Part 3.1: Add transition */
+  transition: 0.5s all;
+}
+
+.carousel-image img {
+  height: 100%;
+  width: auto;
+}
+
+/* Controls */
+
+.hidden {
+  visibility: hidden;
+}
+
+/* Part 4: optional button styling */
+
+#carousel-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#button-next,
+#button-previous {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+

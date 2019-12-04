@@ -1,0 +1,241 @@
+
+body, html {
+  height: 100%;
+  background-color: #A0102C;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+
+
+  /*
+  background-image: "assets/img/FIRENOODLESFRONT.png";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;*/
+
+
+}
+
+.navbar {
+  /*overflow: hidden;
+  background-color: #271C1E;
+  display:inline-block;
+  /*
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+  border: 0;
+  
+  width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+  
+  position: fixed;
+  */
+
+  width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #271C1E;
+    /* PROBLEM 1: Make the header stick to the top as you scroll */
+    position: fixed;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  margin-left: 80px;
+  line-height: 80px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Galada', cursive;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.background {
+
+	/*
+	position: relative;
+	left: 600px;
+	bottom: 340px;
+	width: 50%;
+  	height: auto;
+  	*/
+
+
+  	height:40%;
+  	width: 60%;
+  	float: right;
+ 	
+	
+	
+}
+
+.container {
+	color:white;
+	position:relative;
+
+	left: 45px;
+	top: 50px;
+    
+}
+ 
+
+.chicken {
+	position: relative;
+	left: 270px;
+	top: 160px;
+
+	animation: float 3s ease-out infinite;
+
+}
+
+@keyframes float {
+  50% {
+     transform: translate(0, 20px);
+  }
+}
+
+.title {
+	position: relative;
+	left: 190px;
+	top: 140px;
+	font-size: 65px;
+	font-family: 'Spicy Rice', cursive;
+	
+}
+
+
+
+
+.variations {
+	position: relative;
+	left: 200px;
+	top: 70px;
+	font-family: 'Gentium Basic', serif;
+}
+ 
+
+button {
+	position: relative;
+	border-radius: 25px;
+	height: 50px;
+  	width: 240px;
+  	left: 200px;
+	top: 80px;
+
+  	background-color: #D18F13;
+  
+}
+
+.buttonword {
+	text-align: left;
+	position: absolute;
+	font-size: 30px;
+	left: 30px;
+	top: 2px;
+	font-family: 'Permanent Marker', cursive;
+
+}
+span:before
+{
+	content: "Explore";
+	animation: animate infinite 5s;
+}
+
+@keyframes animate
+{
+	0%
+	{
+		content: "Explore!";
+	}
+	50%
+	{
+		content: "Click";
+	}
+	100%
+	{
+		content: "HERE!!";
+	}
+
+}
+
+.REALFIRE {
+	position: absolute;
+	right: 20px;
+	top: 0px;
+	height: 45px;
+  	width: 45;
+  	transition: all 1s ease-in-out;
+  	animation: move 1.7s infinite;
+}
+.buttonfire {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 45px;
+  	width: 45;
+
+  	
+
+}
+
+@keyframes move {
+  0% {
+    left: -80px;
+  }
+  50% {
+    left: -45px;
+  }
+  100% {
+    left: -80px;
+  }
+}
+
+
+
+
+
+
+
+.ourstory {
+  font-family: 'Gentium Basic', serif;
+  font-size: 100px;
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-left: 400px;
+  margin-bottom: 0px;
+}
+
+.storytime{
+  font-family: 'Gentium Basic', serif;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.storyname{
+  font-family: 'Gentium Basic', serif;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.history {
+  font-family: 'Gentium Basic', serif;
+  font-size: 25px;
+  color: #FFFFFF;
+  width: 600px;
+}
+
+.address{
+  font-family: 'Gentium Basic', serif;
+  font-size: 20px;
+  color: #FFFFFF;
+}

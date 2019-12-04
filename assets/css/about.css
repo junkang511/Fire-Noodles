@@ -1,0 +1,128 @@
+/* work of Amadeus*/
+body{
+   margin: 0;
+   padding: 0; 
+   background-color: #BA2D2D;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #271C1E;
+  display:inline-block;
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+  border: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  margin-left: 80px;
+  line-height: 80px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Galada', cursive;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.title{
+  font-family: 'Gentium Basic', serif;
+  color:white;
+  float:left;
+  margin-top:100px;
+  margin-left:75px;
+  font-size:50px;
+}
+
+.age{
+  font-family: 'Gentium Basic', serif;
+  color:white;
+  float:left;
+  margin-top:170px;
+  margin-left:-310px;
+  font-size:25px; 
+  position:relative;
+}
+
+.donut1{
+  height:500px;
+  width: 800px;
+  float: right;
+}
+
+.donut2{
+  margin-top: 300px;
+  height:600px;
+  width: 460px;
+  float: left;
+}
+
+.paragraph{
+  margin-top: 100px;
+  margin-right: 200px;
+  float: right;
+}
+
+.words{
+  font-family: 'Gentium Basic', serif;
+  color:white;
+  padding-bottom: 20px;
+}
+
+
+/* work of King*/
+/*
+.donut3 {
+  float:right;
+  width: 300px;
+  height:670px;
+}
+*/
+
+.article{
+  margin-left: 400px;
+  margin-top: 0px;
+  display: inline-block;
+  font-family: 'Gentium Basic', serif;
+}
+
+.ourstory {
+  font-family: 'Spicy Rice', cursive;
+  font-size: 100px;
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-left: 400px;
+  margin-bottom: 0px;
+}
+
+.storytime{
+  font-family: 'Gentium Basic', serif;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.storyname{
+  font-family: 'Gentium Basic', serif;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.history {
+  font-family: 'Gentium Basic', serif;
+  font-size: 25px;
+  color: #FFFFFF;
+  width: 600px;
+}
+
+.address{
+  font-family: 'Gentium Basic', serif;
+  font-size: 20px;
+  color: #FFFFFF;
+}
