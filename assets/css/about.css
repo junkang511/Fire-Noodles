@@ -90,7 +90,7 @@ body{
   margin-left: 400px;
   margin-top: 0px;
   display: inline-block;
-  font-family: 'Gentium Basic', serif;
+  
 }
 
 .ourstory {
@@ -103,26 +103,26 @@ body{
 }
 
 .storytime{
-  font-family: 'Gentium Basic', serif;
+  font-family: 'Neucha', cursive;
   font-size: 25px;
   color: #FFFFFF;
 }
 
 .storyname{
-  font-family: 'Gentium Basic', serif;
-  font-size: 25px;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 45px;
   color: #FFFFFF;
 }
 
 .history {
-  font-family: 'Gentium Basic', serif;
+  font-family: 'Neucha', cursive;
   font-size: 25px;
   color: #FFFFFF;
   width: 600px;
 }
 
 .address{
-  font-family: 'Gentium Basic', serif;
+  font-family: 'Neucha', cursive;
   font-size: 20px;
   color: #FFFFFF;
 }

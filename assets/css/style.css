@@ -204,38 +204,3 @@ span:before
 
 
 
-
-
-.ourstory {
-  font-family: 'Gentium Basic', serif;
-  font-size: 100px;
-  color: #FFFFFF;
-  margin-top: 0px;
-  margin-left: 400px;
-  margin-bottom: 0px;
-}
-
-.storytime{
-  font-family: 'Gentium Basic', serif;
-  font-size: 25px;
-  color: #FFFFFF;
-}
-
-.storyname{
-  font-family: 'Gentium Basic', serif;
-  font-size: 25px;
-  color: #FFFFFF;
-}
-
-.history {
-  font-family: 'Gentium Basic', serif;
-  font-size: 25px;
-  color: #FFFFFF;
-  width: 600px;
-}
-
-.address{
-  font-family: 'Gentium Basic', serif;
-  font-size: 20px;
-  color: #FFFFFF;
-}
